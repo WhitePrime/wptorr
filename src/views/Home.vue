@@ -50,48 +50,22 @@
         </v-flex>
 
         <v-flex class="text-xs-center mt-5">
+         
           <v-btn
             color="gray"
-            href="https://github.com/Davenchy/live-torrent"
+            href="https://ttttt.me/ITHard"
             target="blank"
           >
-            <v-icon left>fab fa-github</v-icon>Github
-          </v-btn>
-          <v-btn
-            color="gray"
-            href="https://github.com/Davenchy/live-torrent/issues"
-            target="blank"
-          >
-            <v-icon left>fas fa-exclamation-circle</v-icon>Github Issues
-          </v-btn>
-          <v-btn
-            color="blue"
-            href="mailto:firon1222@gmail.com?Subject=Live%20Torrent%20-%20Feedback"
-            target="blank"
-          >
-            <v-icon left>fas fa-comments</v-icon>Feedback
+            <v-icon left>fas fa-exclamation-circle</v-icon>Telegram
           </v-btn>
         </v-flex>
 
         <v-flex xs10 offset-xs1 class="mt-5">
-          <div class="mb-3">Share Live Torrent:</div>
           <share-buttons
             :url="hostURL"
             title="Explore, download or watch torrent files online"
-            desc="Live Torrent is a web app to explore, download or watch torrent files online"
+            desc="app to explore, download or watch torrent files online"
           />
-        </v-flex>
-        <v-flex xs12 class="text-xs-center mt-5">
-          <a
-            href="https://brave.com/liv970"
-            target="_blank"
-            title="Support us and a faster and safer web by downloading Brave browser"
-          >
-            <img
-              src="/img/brave.png"
-              alt="Proud to support a faster, safer web"
-            />
-          </a>
         </v-flex>
       </v-layout>
     </v-flex>
