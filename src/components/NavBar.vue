@@ -4,7 +4,7 @@
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
       <v-toolbar-title @click="$router.push('/')">
-        <img src="/img/logo.png" style="max-height: 5em" alt="live torrent logo" />
+        <img src="/img/logo.png" style="max-height: 5em" alt="" />
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn icon @click="$router.go(-1)">
@@ -34,7 +34,7 @@
             </v-list-tile-avatar>
 
             <v-list-tile-content>
-              <v-list-tile-title>Live Torrent</v-list-tile-title>
+              <v-list-tile-title>IT Hard</v-list-tile-title>
             </v-list-tile-content>
 
             <v-list-tile-action>
@@ -95,10 +95,7 @@ export default {
       drawer: true,
       mini: false,
       items: [
-        { title: "Home", icon: "fas fa-home", path: "/" },
-        { title: "Movies", icon: "fas fa-film", path: "/movies" },
-        { title: "Bookmarks", icon: "fas fa-bookmark", path: "/bookmarks" },
-        { title: "About", icon: "info", path: "/about" }
+        { title: "Home", icon: "fas fa-home", path: "/" },        
       ]
     };
   },
