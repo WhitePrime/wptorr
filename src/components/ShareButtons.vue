@@ -12,9 +12,7 @@
       <network network="facebook" class="blue--text text--darken-2 ma-3">
         <i class="fab fa-facebook"></i> Facebook
       </network>
-      <network network="reddit" class="red--text text--lighten-1 ma-3">
-        <i class="fab fa-reddit-alien"></i> Reddit
-      </network>
+      
       <network network="twitter" class="blue--text text--lighten-4 ma-3">
         <i class="fab fa-twitter"></i> Twitter
       </network>
@@ -33,9 +31,7 @@
       <network network="vk" class="blue--text text--darken-3 ma-3">
         <i class="fab fa-vk"></i> VKontakte
       </network>
-      <network network="weibo" class="red--text text--darken-1 ma-3">
-        <i class="fab fa-weibo"></i> Weibo
-      </network>
+      
       <network network="whatsapp" class="green--text text--lighten-2 ma-3">
         <i class="fab fa-fw fa-whatsapp"></i> Whatsapp
       </network>
