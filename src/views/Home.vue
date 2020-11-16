@@ -16,6 +16,7 @@
             </span>
             Torrent
           </h1>
+          <h2> by ITHard </h2>
         </v-flex>
         <v-flex xs10 offset-xs1>
           <v-text-field
